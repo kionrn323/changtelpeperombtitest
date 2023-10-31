@@ -88,3 +88,6 @@ body, html {
 .start-content {
   margin-top: 30%; /* 원하는 값으로 조절 가능합니다. */
 }
+#name {
+  width: 55px;
+}
