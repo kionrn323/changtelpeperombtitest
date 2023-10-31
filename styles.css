@@ -19,8 +19,9 @@
   background-position: center center;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center;   /* 중앙 정렬 */
+  align-items: flex-end;     /* 세로축 아래 정렬 */
+   padding-bottom: 210%; 
 }
 
 .question-section {
