@@ -59,7 +59,7 @@ const personalityImages = {
   INFJ: "C:\pepero\frontend\INFJ.jpg",
   INFP: "C:\pepero\frontend\INFP.jpg",
   ISFP: "C:\pepero\frontend\ISFP.jpg",
-  ISFJ: "C:\pepero\frontend\ISFJ.png",
+  ISFJ: "C:\pepero\frontend\ISFJ.jpg",
   ISTP: "C:\pepero\frontend\ISTP.jpg",
   ISTJ: "C:\pepero\frontend\ISTJ.jpg",
   // 여기에 다른 MBTI 유형별 이미지 경로를 추가
