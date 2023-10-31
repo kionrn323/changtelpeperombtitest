@@ -7,13 +7,21 @@
 /* 반응형 디자인: 600px 미만의 화면 크기에 대한 스타일 */
 @media (max-width: 480px) {
   .container {
-    max-width: 90%; /* 화면 너비의 90% */
+    max-width: 110%; /* 화면 너비의 90% */
     margin: 20px auto;
   }
 }
 
-
-
+.start-section {
+  background-image: url("처음.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .question-section {
   background-image: url("1번설문지.jpg");
@@ -49,15 +57,14 @@ button:hover {
 }
 
 
-
-  .results-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
+.results-content {
+  transform: translateY(300px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
 .moved-down {
   transform: translateY(100px);
@@ -68,27 +75,12 @@ img {
   height: auto;
 }
 
-.start-section {
-  background-image: url("처음.jpg");
-  background-size: contain;  /* 수정 */
+.background-image {
+  background-image: url('처음.jpg');
+  background-size: cover; 
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-
-.results-section {
-  background-image: url("images.jpg"); /* 'path_to_your_image.jpg'를 실제 이미지 경로로 교체해주세요. */
-  background-size: cover; /* 배경 이미지가 해당 섹션을 가득 채우도록 설정 */
-  background-repeat: no-repeat; /* 배경 이미지가 반복되지 않도록 설정 */
-  background-position: center center; /* 배경 이미지가 섹션의 중앙에 위치하도록 설정 */
-
-  /* 기존 스타일 코드 */
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+body, html {
+  overflow: hidden;
 }
